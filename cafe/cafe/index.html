@@ -8,7 +8,6 @@
 			<link rel="stylesheet" href="css/reset.css">
 			<link rel="stylesheet" href="css/swiper.min.css">
 			<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap&subset=cyrillic" rel="stylesheet">
-			<link rel="stylesheet" href="css/animate.css">
 			<link rel="stylesheet" href="css/style.css">
 		</head>
 <body>
@@ -21,6 +20,7 @@
 					<a href="#">Cofe-Name</a>
 				</div>
 				<!-- /.header__top-logo -->
+				<div class="menu-list">
 					<nav class="menu wow bounceInDown">
 						<ul class="menu__list">
 							<li><a href="#">Забронировать столик</a></li>
@@ -30,6 +30,12 @@
 						</ul>
 						<!-- /.menu__list -->
 					</nav>
+				</div>
+					<div class="burger-menu burger__menu-active">
+						<div class="burger__menu-button">
+							<span class="burge-menu__lines"></span>
+						</div>
+					</div>
 				<!-- /.menu -->
 			</div>
 			<!-- /.header__top -->
@@ -78,22 +84,22 @@
 										<div class="swiper-slide">
 											<img src="img/eat/Image.png" alt="cofe" class="cofe">
 											<a href="#" class="btn-prise">
-												<span class="btn__prise-name">Капучино</span>
-												<span class="btn__prise-prise">60 р</span>
+												<span class="btn__prise-name  name-name   ">Капучино</span>
+												<span class="btn__prise-prise prise-prise">60 р</span>
 											</a>
 										</div>
 										<div class="swiper-slide">
 											<img src="img/eat/latte.png" alt="cofe" class="cofe-2">
 											<a href="#" class="btn-prise-2">
-												<span class="btn__prise-name-2">Латте</span>
-												<span class="btn__prise-prise-2">149 р</span>
+												<span class="btn__prise-name-2  name-name   ">Латте</span>
+												<span class="btn__prise-prise-2 prise-prise">149 р</span>
 											</a>
 										</div>
 										<div class="swiper-slide">
 											<img src="img/eat/cake.png" alt="cofe" class="cofe-3">
 											<a href="#" class="btn-prise-3">
-												<span class="btn__prise-name-3">Пирожное</span>
-												<span class="btn__prise-prise-3 ">199 р</span>
+												<span class="btn__prise-name-3   name-name   ">Пирожное</span>
+												<span class="btn__prise-prise-3  prise-prise">199 р</span>
 											</a>
 									</div>
 									</div>
@@ -148,27 +154,26 @@
 					<input type="tel"  placeholder="+7 (123) 456 78 91*"class="wrapper__register-phone registr-input">
 					<input type="email"placeholder="Электронная почта*" class="wrapper__register-emile registr-input">
 				</div>
-				<button type="submit" class="wrapper__register-call">Заказать звонок <span class="register__call-span">сейчас</span></button>
+				<button type="submit" class="wrapper__register-call"><span class="wrapper__register-title">Заказать звонок </span><span class="register__call-span">сейчас</span></button>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="footer">
+<footer class="footer">
 <div class="container">
 	<div class="footer-wrapper">
 		<div class="footer__wrapper-menu">
-			<span class="wrapper__menu-menu">Меню</span>
+			<a href="" style="text-decoration: none;"><span class="wrapper__menu-menu">Меню</span></a>
 			<span class="wrapper__menu-phone">+ 7 123 456 78 90</span>
 		</div>
 		<div class="footer__wrapper-stolik">
-			<span class="wrapper__stolik-stolik">Забронировать столик</span>
-			<span class="wrapper__stolik-phone">+7 987 654 32 10</span>
+			<a href="" style="text-decoration: none;"><span class="wrapper__menu-menu">Забранировать столик</span></a>
+			<span class="wrapper__stolik-phone">+ 7 987 654 32 10</span>
 		</div>
 	</div>
 </div>
-</section>
-	<script src="js/wow.min.js"></script>
+</footer>
 	<script src="js/swiper.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
